@@ -11,7 +11,7 @@
     ignore_errors: yes
 
   - name: rm image
-    command: docker rmi ronyad/regapp-server
+    command: docker rmi ronyad/regapp
     ignore_errors: yes
 
   - name: create container
